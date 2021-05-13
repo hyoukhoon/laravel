@@ -1,0 +1,10 @@
+[2021-05-13 06:09:58] local.ERROR: There are no commands defined in the "controller" namespace. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"controller\" namespace. at /var/www/laravel/blog/vendor/symfony/console/Application.php:605)
+[stacktrace]
+#0 /var/www/laravel/blog/vendor/symfony/console/Application.php(656): Symfony\\Component\\Console\\Application->findNamespace()
+#1 /var/www/laravel/blog/vendor/symfony/console/Application.php(254): Symfony\\Component\\Console\\Application->find()
+#2 /var/www/laravel/blog/vendor/symfony/console/Application.php(166): Symfony\\Component\\Console\\Application->doRun()
+#3 /var/www/laravel/blog/vendor/laravel/framework/src/Illuminate/Console/Application.php(92): Symfony\\Component\\Console\\Application->run()
+#4 /var/www/laravel/blog/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
+#5 /var/www/laravel/blog/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#6 {main}
+"} 
